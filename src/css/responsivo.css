@@ -1,0 +1,66 @@
+@media(max-width: 1160px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat #674baf;
+        background-size: cover;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main .img {
+        max-width: 100%;
+        padding: 0;
+        margin: 40px 0;
+    }
+
+    main .info {
+        margin: 0;
+    }
+
+    main .info .btn {
+        align-self: center;
+        margin-top: 20px;
+        padding: 15px 100px;
+    }
+
+    footer .redes {
+        justify-content: center;
+        padding: 75px 0px 45px 0px;
+        margin: 0;
+    }
+}
+
+@media(max-width: 750px) {
+    header .logo {
+        width: 50%;
+        padding: 40px 0 0 40px;
+    }
+    main .img img {
+        width: 85%;
+    }
+
+    main .info {
+        width: 100%;
+        padding: 30px;
+    }
+
+    main .info .titulo {
+        font-size: 30px;
+    }
+
+    main .info .descricao {
+        font-size: 21.2px;
+        font-weight: 400;
+    }
+}
+
+@media(max-width: 425px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat #674baf;
+        background-size: 100% 38%;
+    }
+}

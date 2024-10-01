@@ -7,6 +7,7 @@ body {
 header {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 header .logo {
@@ -21,26 +22,28 @@ main {
 }
 
 main .img {
+    max-width: 100%;
     padding: 60px 50px;
 }
 
 main .info {
-    width: 465px;
+    width: 550px;
     color: #ffffff;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
 }
 
 main .info .titulo {
     font-family: poppins, sans-serif;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 
 main .info .descricao {
     font-family: open sans, sans-serif;
-    font-size: 16px;
+    font-size: 18.8px;
     font-weight: 400;
     margin-bottom: 25px;
 }
@@ -54,4 +57,38 @@ main .info .btn {
     background-color: #ffffff;
     align-self: flex-start;
     border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: ease-in-out 0.3s;
+}
+
+main .info .btn:hover {
+    color: #ffffff;
+    background-color: #e882e8;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+footer .redes .fab {
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #ffffff;
+    border-radius: 50%;
+    transition: ease-in-out 0.3s;
+}
+
+footer .redes .fab:hover {
+    color: #e882e8;
+    border: 1.5px solid #e882e8;
 }
