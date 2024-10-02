@@ -1,5 +1,6 @@
 @media(max-width: 1160px) {
     body {
+        height: 100vh;
         background: url(../images/bg-mobile.svg) no-repeat #674baf;
         background-size: cover;
     }
@@ -14,7 +15,7 @@
     main .img {
         max-width: 100%;
         padding: 0;
-        margin: 40px 0;
+        margin: 20px 0;
     }
 
     main .info {
@@ -23,14 +24,21 @@
 
     main .info .btn {
         align-self: center;
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 15px 100px;
     }
 
     footer .redes {
         justify-content: center;
-        padding: 75px 0px 45px 0px;
+        padding: 35px 0px 10px 0px;
         margin: 0;
+    }
+}
+
+@media(max-width: 940px){
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat #674baf;
+        background-size: contain;
     }
 }
 
@@ -39,28 +47,22 @@
         width: 50%;
         padding: 40px 0 0 40px;
     }
+
     main .img img {
         width: 85%;
     }
 
     main .info {
         width: 100%;
-        padding: 30px;
+        padding: 40px;
     }
 
     main .info .titulo {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     main .info .descricao {
-        font-size: 21.2px;
-        font-weight: 400;
-    }
-}
-
-@media(max-width: 425px) {
-    body {
-        background: url(../images/bg-mobile.svg) no-repeat #674baf;
-        background-size: 100% 38%;
+        font-size: 19px;
+        font-weight: 300;
     }
 }
