@@ -66,3 +66,11 @@
         font-weight: 300;
     }
 }
+
+@media(min-width: 1800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
